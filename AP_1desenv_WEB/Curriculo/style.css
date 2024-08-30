@@ -1,0 +1,140 @@
+*{
+    padding: 0; 
+    margin: 0 auto; /* utilizado de base para toda a pagina */
+    box-sizing: border-box; /*usado para definir o tamanho de um elemento e sua borda*/
+    font-family: 'Segoe UI',  sans-serif; /*definir fonte*/
+
+}
+body{
+    background-color:lightgray ; /*definir a cor de fundo do site*/
+}
+.conteiner{  /* caixa grande */
+    height: 1100px; /* usado para definir a altura do elemento*/
+    
+    width: 65%;/* usado para definir a largura do elemento*/
+}
+.left{
+width: 50%; /* usado para definir a largura do elemento*/
+height: 100%; /*usado para definir uma borda, quantidade de pixels, estilo e cor*/
+background-color: black; /* usado para definir a cor do elemento float*/
+float: left; /*usado para deixar um elemento "flutuando" na esquerda*/
+color: white; /*definir cor dos textos*/
+padding: 50px; /*usado para definir uma distância entre o conteúdo de um elemento e suas bordas*/
+}
+.right{
+    width: 50%; /* usado para definir a largura do elemento*/
+height: 100%; /*usado para definir uma borda, quantidade de pixels, estilo e cor*/
+background-color: rgb(136, 130, 130); /* usado para definir a cor do elemento float*/
+border: 1px solid; /*usado para definir uma borda, quantidade de pixels, estilo */
+float: left; /*usado para deixar um elemento "flutuando" na esquerda*/
+color: black; /*definir cor dos textos*/
+padding: 50px; /*usado para definir uma distância entre o conteúdo de um elemento e suas bordas*/
+}
+.profile img{
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;  /*usado para arredondar a imagem*/
+    border: 5px solid white; /*usado para definir uma borda, quantidade de pixels, estilo e cor*/
+}
+h1{
+    font-size: 48px; /*usado para definir tamanho de fonte em h1*/
+    margin-top: 25px; /*usado para definir uma margem na parte de cima*/
+}
+.profile h2{
+    color: lightgreen; /*definir cor dos textos*/
+    font-style: italic; /*mudar a forma da letra*/
+    font-weight: 400; /*usado para definir o peso da fonte em h2 de profile*/
+    font-size: 20px; /*usado para definir tamanho de fonte em h2 de profile*/
+    margin: 16px 0; /*para definir a margen*/
+}
+
+.educ{
+    margin-top: 30px; /*usado para definir uma margem na parte de cima*/
+}
+.educ h2{
+    color: green; /*definir cor dos textos*/
+    margin-bottom: 10px; /*usado para definir uma margem na parte de baixo*/
+    margin-top: 20px; /*usado para definir uma margem na parte de cima*/
+    
+}
+.educ h3{
+    font-style: italic;
+    font-weight: 400; /*usado para definir o peso da fonte em h2 de profile*/
+    font-size: 20px;/*usado para definir tamanho de fonte em h3*/
+    margin-top: 6px o; /*usado para definir uma margem na parte de cima*/
+}
+.contact{
+    margin-top: 40px; /*usado para definir uma margem na parte de cima*/
+    
+}
+.contact p{
+    margin-bottom: 15px; /*usado para definir uma margem na parte de baixo*/
+}
+.exp{
+    margin-top: 80px; /*usado para definir uma margem na parte de cima*/
+}
+.exp li{
+    margin-left: 25px; /*usado para definir uma margem na parte esquerda*/
+    margin-top: 8px; /*usado para definir uma margem na parte de cima*/
+    margin-bottom: 16px; /*usado para definir uma margem na parte de baixo*/
+}
+.exp hr, .habil hr{
+    margin: 10px 0;
+    margin-left: -50px; /*usado para definir uma margem na parte esquerda*/
+}
+.exp h3, .habil h3{
+    font-style: italic;
+    margin-top: 8px; /*usado para definir uma margem na parte de cima*/
+    font-weight: 400; /*usado para definir o peso da fonte em h2 de profile*/
+}
+.exp p{
+    margin-bottom: 6px; /*usado para definir uma margem na parte de baixo*/
+}
+.habil{
+    margin-top: 100px; /*usado para definir uma margem na parte de cima*/
+}
+.habil li{
+    margin-left: 25px; /*usado para definir uma margem na parte esquerda*/
+    
+}
+.habil ul{
+    margin-bottom: 30px; /*usado para definir uma margem na parte de baixo*/
+}
+i{
+    font-size:15px ;
+    color: red; /*definir cor dos textos*/
+}
+
+.progress-50{
+    width: 50%; /* usado para definir a largura do elemento*/
+    height: 100%; /*usado para definir uma borda, quantidade de pixels, estilo e cor*/
+    background-color: green; /* usado para definir a cor do elemento float*/
+    margin: 0; /*para definir a margen*/
+    border-radius: 16px;
+}
+.progress-75{
+    width: 75%; /* usado para definir a largura do elemento*/
+    height: 100%; /*usado para definir uma borda, quantidade de pixels, estilo e cor*/
+    background-color: green; /* usado para definir a cor do elemento float*/
+    /* display: inline-block; */
+    margin: 0; /*para definir a margen*/
+    border-radius:16px ;
+}
+.progress-100{
+    width: 100%; /* usado para definir a largura do elemento*/
+    height: 100%; /*usado para definir uma borda, quantidade de pixels, estilo e cor*/
+    background-color: green; /* usado para definir a cor do elemento float*/
+    border-radius: 16px;
+}
+.bar{
+    height: 16px;
+    border: 1px solid;
+    width: 200px; 
+    display: inline-block;
+    border-radius: 16px;
+}
+.habil-center{
+    text-align: center; /*usado para centralizar o nome*/
+    text-decoration:underline; /* usado para sublinhar */
+
+}

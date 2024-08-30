@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fumções</title>
+</head>
+<body onload="ola()">
+    <h1>Eventos e funções</h1>
+
+    <form> 
+        <label for="">Nome:</label>
+        <input id="nome" type="text" onchange="textoMudou()" onfocus="emFoco()" onblur="semFoco()">
+        <butto onclick="saudacao()" type="button">olá</button>
+    </form>
+    <h2 id="mouse" onmouseover="mouseCima()" onmouseout="mouseFora()">passe o mause aqui...........</h2>
+    <script src="script.js"></script>
+</body>
+</html>

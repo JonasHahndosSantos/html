@@ -1,0 +1,17 @@
+p {
+    font-weight: bold;
+    font-size: 19px;
+    font-style: italic;
+}
+h1{
+    color: blue;
+    text-decoration: underline;
+}
+
+#externo{
+    font-family: 'Trebuchet MS', sans-serif;
+    
+}
+.fundo-aqua{
+    background-color: blue;
+}

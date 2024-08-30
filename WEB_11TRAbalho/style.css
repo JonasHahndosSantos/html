@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    
+}
+header {
+    background-color: #464545;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.2s;
+    
+}
+nav a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+.about img {
+    width: 350px;
+    border-radius: 10px;
+    margin-left: 80px;
+}
+.about img:hover {
+    width: 360px;
+    transition: 0.6s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1)
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px;
+    flex-wrap: nowrap;
+    
+    text-align: center;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 20px;
+    
+}
+.text{
+    padding: 20px;
+    text-align: center;
+    
+    padding: 200px;
+}
+.text h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.text p{
+    
+    text-align: justify;
+    
+
+}
+
+main{
+    display: flex;
+    justify-content: center; /*pensando horizontalmente*/
+    background-color: rgb(173, 149, 149);
+    flex-direction: column;
+    align-items: center; /*pensando verticalmente*/
+}
+.projects:card{
+    display: flex;
+    width: 290px;
+    
+}
+
+.proj img{
+    width: 100%;
+    height: 60%;
+    border-radius: 10px 10px 0 0;
+    
+}
+.proj:hover {
+    width: 410px;
+    transition: 0.6s;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1)
+}
+.proj{
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 400px;
+    height: 350px;
+    background-color: #b4b0b0;
+    border-radius: 10px;
+    margin: 30px 20px;
+    transition: 0.3s;
+    
+}
+.proj p{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+input, button, textarea{
+    color: rgb(255, 255, 255);
+}
+form{
+    display: flex;
+    flex-direction: column;/*colocando em colunas verticais*/
+}
+.contact{
+    width: 100%;
+    margin: 20px 0px;
+}
+.contact h2{
+    text-align: center;
+    margin: 20px 0;
+}
+label{
+    margin-bottom: 10px;
+}
+input, textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+footer{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer ul{
+    display: flex;
+}
+i{
+    padding: 10px;
+}
+i:hover{
+    color: #333;
+    
+}
+li{
+    list-style: none;
+}
+
+@media screen and (max-width:768px) { /*responsividade*/
+    h1{
+        text-align: center;
+    }
+    header{
+        flex-direction: column; /*vai fazer com que a nav cole no titulo*/
+    }
+    header nav {
+        margin-top: 15px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 290px;
+        flex-wrap: wrap;
+
+    }
+    .projects h3{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    .about{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:576px){
+    footer{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

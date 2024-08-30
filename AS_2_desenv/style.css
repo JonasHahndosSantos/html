@@ -1,0 +1,118 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+    
+    background-image: url(foto.jpeg) ;
+    
+    
+}
+.borde{
+    border: 1px solid black;
+    width: 900px;
+    margin-left: 270px;
+    background-color: #555;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #e5e5f4;
+    
+}
+
+#adicionarFuncaoTarefa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#nome-tarefa, #prioridadeTarefa, #botaoAdicionar{
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#nome-tarefa {
+    width: 200px;
+}
+
+#prioridadeTarefa {
+    width: 120px;
+}
+
+#botaoAdicionar{
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#botaoAdicionar:hover {
+    background-color: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+h2{
+    text-decoration:underline;
+}
+h1{
+    color: #bfbfda;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+li.alta {
+    background-color: #c74444;
+}
+
+li.media {
+    background-color: #eb8c09;
+}
+
+li.baixa {
+    background-color: #30eb30;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#tarefaPendente, #tarefaCompletas {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.completed-time {
+    font-size: 0.9em;
+    color: #555;
+}
+.alta{
+    background-color: #c74444;
+}

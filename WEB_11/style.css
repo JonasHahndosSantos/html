@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+.about img {
+    width: 300px;
+    border-radius: 10px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px;
+}
+section{
+    max-width: 1000px;
+}
+.text{
+    padding: 20px;
+}
+.text h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+text p{
+    text-align: justify;
+}
+main{
+    display: flex;
+    justify-content: center; /*pensando horizontalmente*/
+    background-color: black;
+    flex-direction: column;
+    align-items: center; /*pensando verticalmente*/
+}
+.projects{
+    display: flex;
+}
+.proj img{
+    width: 280px;
+    height: 152px;
+}
+.proj{
+    padding: 20px;
+}
+input, button, textarea{
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;/*colocando em colunas verticais*/
+}
+.contact{
+    width: 100%;
+    margin: 20px 0px;
+}
+.contact h2{
+    text-align: center;
+    margin: 20px 0;
+}
+label{
+    margin-bottom: 10px;
+}
+input, textarea{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 10px;
+}
+button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0 0;
+    cursor: pointer;
+}
+footer{
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+footer ul{
+    display: flex;
+}
+i{
+    padding: 10px;
+}
+i:hover{
+    color: #837575;
+    background-color: white;
+}
+li{
+    list-style: none;
+}
+@media screen and (max-width:768px) { /*responsividade*/
+    h1{
+        text-align: center;
+    }
+    header{
+        flex-direction: column; /*vai fazer com que a nav cole no titulo*/
+    }
+    header nav {
+        margin-top: 15px;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+        /* width: 580px; */
+        text-align: justify;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        width: 290px;
+    }
+    .projects h3{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width:576px){
+    footer{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+    }
+}

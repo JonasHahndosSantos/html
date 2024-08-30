@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    
+
+
+
+    <script>
+        
+       let numero = Number(prompt ('digite um numero') )
+       let numero2 = Number(prompt ('digite o segundo numero') )
+       const multi = numero*numero2
+       alert('a multiplicação é:'+ multi)
+
+
+
+       let numer = Number(prompt ('digite um numero') )
+       let numer2 = Number(prompt ('digite o segundo numero') )
+       
+       if(numer%2==0 && numer>=0){
+          alert('o numero é par e positivo')
+       }else if(numer%2==0 && numer<0){
+          alert('o numero é par e negativo')
+       }
+
+       if(numer%2!=0 && numer>=0){
+          alert('o numero é imper e positivo')
+       }else if(numer%2!=0 && numer<0){
+          alert('o numero é imper e negativo ')
+       }
+       if(numer2%2==0 && numer2>=0){
+          alert('o numero é par e positivo')
+       }else if(numer2%2==0 && numer2<0){
+          alert('o numero é par e negativo')
+       }
+
+       if(numer2%2!=0 && numer2>=0){
+          alert('o numero é imper e positivo')
+       }else if(numer2%2!=0 && numer2<0){
+          alert('o numero é imper e negativo ')
+       }
+
+
+
+       let nome = prompt ('digite o nome') 
+       let idade = Number(prompt ('digite a idade') )
+       if(idade>=18){
+        alert(nome +' tem ' + idade + ' e é maior de idade')
+       }else{
+        alert(nome +' tem ' + idade + ' e é menor de idade')
+       }
+
+
+
+       let numeroTabuada = Number(prompt ('digite um numero') )
+       for (let i = 0; i < 11; i++) {
+   const result = i*numeroTabuada
+   alert( numeroTabuada +' X '+ i+ ' = ' + result)
+}
+
+
+
+let nota = Number(prompt ('digite sua primeiro nota') )
+let nota2 = Number(prompt ('digite sua segunda nota') )
+let nota3 = Number(prompt ('digite sua terceira nota') )
+const soma1 = nota+nota2+nota3
+const media = soma1/3
+if(media>=6){
+    alert('o aluno esta aprovado com a media'+ media)
+}else{
+    alert('o aluno esta reprovado com a media'+ media)
+}
+
+
+
+
+let dia = prompt('Digite um número de 1 a 7.')
+if(dia>0 && dia <8){
+    switch(dia){
+    case '1':
+        alert('domingo')
+        break
+        case '2':
+        alert('segunda')
+        break
+        case '3':
+        alert('terça')
+        case '4':
+        alert('quarta')
+        break
+        case '5':
+        alert('quinta')
+        break
+        case '6':
+        alert('sexta')
+        break
+        case '7':
+        alert('sabado')
+        break
+    }
+}else{
+    alert('voce nao digitou um numero de 1 a 7')
+}
+
+
+
+
+
+
+let result= soma/contador
+alert('o numero é negativo encerrando transmissão.....\n resultado dos numeros é '+ result )
+
+
+let soma = 0;
+let contador = 0;
+
+while (true) {
+  let numero = parseFloat(prompt("Digite um número: "));
+
+  if (numero < 0) {
+    break;
+  }
+
+  soma += numero;
+  contador++;
+}
+
+if (contador === 0) {
+  alert("Nenhum número foi digitado!");
+} else {
+  let media = soma / contador;
+  alert(`A média dos números digitados é: ${media}`);
+}
+    </script>
+</body>
+</html>

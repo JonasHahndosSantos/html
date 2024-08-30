@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AS_parte 1</title>
+</head>
+<body>
+    <h1>Exercicio 2 - media</h1>
+    <form>
+        <label for="">Nota 1:</label>
+        <input id="num1" type="number" onblur="semFoco()">
+        <br>
+        <label for="">Nota 2:</label>
+        <input id="num2" type="number" onblur="semFoco()">
+        <br>
+        <label for="">___AS:</label>
+        <input id="num3" type="number" onmouseout="semFoco()">
+        <br>
+        <button type="button" onclick="media()">Nota final do aluno</button>
+        <button type="button" onclick="limpar()">Limpar</button>
+        <h2 id="result">Resultado:</h2>  
+        
+    </form>
+    <script src="calcu_2.js"></script>
+</body>
+</html>

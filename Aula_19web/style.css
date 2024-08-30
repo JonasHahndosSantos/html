@@ -1,0 +1,14 @@
+h1{
+    color: blue;
+}
+.negrito{
+    font-weight: bold;
+    
+}
+.verde{
+    background-color: rgb(93, 222, 93);
+}
+img{
+    width: 250px;
+    height: 200px;
+}
